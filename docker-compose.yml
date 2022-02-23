@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  go-rest:
+    image: go-rest
+    ports:
+      - 3000:3000
+      
+  spring-rest:
+    image: spring-rest:0.0.1-SNAPSHOT
+    ports:
+      - 8080:8080
